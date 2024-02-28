@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// @ts-check
+import withPWA from "@ducanh2912/next-pwa";
 
-export default nextConfig;
+export default withPWA({})({});
